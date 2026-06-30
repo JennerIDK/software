@@ -1,48 +1,34 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Datos de ejemplo
     const productos = [
-        {
-            id: 1,
-            nombre: 'Laptop Dell XPS 15',
-            descripcion: 'Potente laptop para diseño gráfico y desarrollo de software.',
-            imagen: '/img/Laptop.avif',
-            stock: 25
-        },
-        {
-            id: 2,
-            nombre: 'Monitor LG Ultrawide',
-            descripcion: 'Pantalla ultra ancha para mayor productividad y experiencia inmersiva.',
-            imagen: '/img/Monitor.avif',
-            stock: 12
-        },
-        {
-            id: 3,
-            nombre: 'Mouse Logitech MX Master',
-            descripcion: 'Mouse ergonómico de alta precisión para profesionales.',
-            imagen: '/img/Mouse.avif',
-            stock: 50
-        },
-        {
-            id: 4,
-            nombre: 'Teclado HyperX Alloy Rise',
-            descripcion: 'Teclado retro-iluminado con switches para una escritura fluida.',
-            imagen: '/img/Teclado.avif',
-            stock: 30
-        },
-        {
-            id: 5,
-            nombre: 'Audífonos Razer Blackshark V3',
-            descripcion: 'Auriculares con sonido envolvente para gaming.',
-            imagen: '/img/Audifonos.avif',
-            stock: 18
-        },
-        {
-            id: 6,
-            nombre: 'Logitech MX Brio Webcam 4K',
-            descripcion: 'Cámara web de alta definición para videollamadas y streaming.',
-            imagen: '/img/Webcam.avif',
-            stock: 10
-        }
+                    {
+                id: 1,
+                nombre: 'Gorra AVICCI',
+                descripcion: 'Gorra deportiva de algodón con ajuste trasero y logo bordado.',
+                imagen: '/img/1.avif',
+                stock: 25
+            },
+            {
+                id: 2,
+                nombre: 'Gorra Marea Originals',
+                descripcion: 'Gorra clásica con visera plana y diseño cómodo para uso diario.',
+                imagen: '/img/2.avif',
+                stock: 18
+            },
+            {
+                id: 3,
+                nombre: 'Gorra RVCA 59FIFTY',
+                descripcion: 'Gorra de estilo urbano con estructura rígida y ajuste cerrado.',
+                imagen: '/img/3.avif',
+                stock: 12
+            },
+            {
+                id: 4,
+                nombre: 'Gorra RVCA Essentials',
+                descripcion: 'Gorra ligera y transpirable, ideal para actividades al aire libre.',
+                imagen: '/img/4.avif',
+                stock: 30
+            }
     ];
 
     const productGrid = document.getElementById('product-grid');

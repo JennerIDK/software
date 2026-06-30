@@ -1,25 +1,24 @@
     // Datos de ejemplo
     const anuncios = [
-        {
-            id: 1,
-            titulo: '¡Descuento del 50% en Laptops!',
-            descripcion: 'Aprovecha nuestra oferta especial por tiempo limitado en laptops seleccionadas.',
-            imagen: '/img/Laptop.avif',
-        },
-        {
-            id: 2,
-            titulo: 'Nuevo Stock: Perifericos Gaming',
-            descripcion: 'Llegaron los ultimos modelos de teclados, mouses y audífonos para gamers.',
-            imagen: '/img/Mouse.avif',
-        },
-        {
-            id: 3,
-            titulo: 'Articulos de Oficina',
-            descripcion: 'Renueva tu espacio de trabajo con precios increibles en todos nuestros productos de oficina.',
-            imagen: '/img/Webcam.avif',
-        },
-
-    ];
+    {
+        id: 1,
+        titulo: ' Descuento en Gorras AVICCI',
+        descripcion: 'Aprovecha 2x1 en la Gorra AVICCI por tiempo limitado. Diseño deportivo con ajuste cómodo.',
+        imagen: '/img/1.avif',
+    },
+    {
+        id: 2,
+        titulo: ' Nuevas Gorras Marea Originals',
+        descripcion: 'Acaban de llegar nuevas Marea Originals. Estilo clásico ideal para uso diario.',
+        imagen: '/img/2.avif',
+    },
+    {
+        id: 3,
+        titulo: ' Colección Urbana RVCA',
+        descripcion: 'Descubre las nuevas RVCA 59FIFTY y Essentials con estilo urbano y materiales premium.',
+        imagen: '/img/3.avif',
+    },
+];
 
     const adGrid = document.getElementById('ad-grid');
 
